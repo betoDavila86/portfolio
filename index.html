@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!-- SWIPPER CSS -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/styles.css">
@@ -41,7 +41,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Servicios
                         </a>
                     </li>
                     <li class="nav__item">
@@ -51,7 +51,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> Contact
+                            <i class="uil uil-message nav__icon"></i> Contacto
                         </a>
                     </li>
                 </ul>
@@ -284,6 +284,15 @@
                                     <span class="skills__percentage skills__linux"></span>
                                 </div>
                             </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Postman</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__postman"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -435,6 +444,145 @@
                 </div>
             </div>
         </section>
+
+        <section class="services section" id="services">
+            <h2 class="section__title">Servicios</h2>
+            <span class="section__subtitle">¿Qué ofrezco?</span>
+
+            <div class="services__container container grid">
+
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Frontend <br>developer</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br>developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Creación y mantenimiento de páginas web</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Desarrollo de código reutilizable</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Optimización para velocidad y escalabilidad</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Colaboración con otros miembros para mejorar usabilidad</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-constructor services__icon"></i>
+                        <h3 class="services__title">Backend <br>developer</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Backend <br>developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Principal foco: coding & debugging</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Permanecer al día con las mejores prácticas</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Involucrado y participativo en la app lifecycle</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Testing y mejora de rendimiento</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Mis trabajos</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/martachis-fit.png" alt="martachis-fit-logo" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Martachis Fit</h3>
+                            <p class="portfolio__description">App fullstack con info, dietas, artículos y mucho más para
+                                promover la vida saludable</p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/opo-reminder.png" alt="opo-app-logo" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Opo Reminder</h3>
+                            <p class="portfolio__description">App fullstack para la gestión del estudio de un opositor
+                            </p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">¿Algún proyecto?</h2>
+                        <p class="project__description">Estaré encantado de poder hablar sobre alguna posición que se ajuste a mi perfil :)</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contáctame
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+                    <img src="/assets/img/foto-perfil.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
@@ -443,7 +591,7 @@
     <!-- SCROLL TOP -->
 
     <!-- SWIPPER JS -->
-    <script src=""></script>
+    <script src="/js/swiper-bundle.min.js"></script>
 
     <!-- MAIN JS -->
     <script src="/js/main.js"></script>
