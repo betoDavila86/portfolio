@@ -14,7 +14,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/styles.css">
 
-    <title>Portfolio</title>
+    <title>AD Portfolio</title>
 </head>
 
 <body>
@@ -613,26 +613,27 @@
                         </div>
                     </div>
                 </div>
-                <form action="" class="contact__form grid">
+                <form target="_blank" action="https://formsubmit.co/96b740a5c08c4bfbaf4563715a519624" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Nombre</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="name" class="contact__input" required>
                         </div>
                         <div class="contact__content">
                             <label for="email" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" name="email" class="contact__input" required>
                         </div>
                     </div>
+                    <input type="text" name="_honey" style="display:none">
                     <div class="contact__content">
                         <label for="message" class="contact__label">Mensaje</label>
-                        <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
                     <div>
-                        <a href="" class="button button--flex">
+                        <button type="submit" class="button button--flex" >
                             Enviar
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                    </button>
                     </div>
                 </form>
             </div>
