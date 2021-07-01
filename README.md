@@ -9,4 +9,4 @@ Pequeño *escaparate* en la que podréis ver alguno de mis trabajos.
 - ![JS](/assets/img-readme/javascript.png)
 
 ### To-Do
-- English version ![English](/assets/img/english.png)
+- English version ![English](/assets/img-readme/english.png)
