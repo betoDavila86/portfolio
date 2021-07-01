@@ -1206,6 +1206,10 @@ img{
         column-gap: 5rem;
     }
 
+    .services__title{
+        font-size: var(--h2-font-size);
+    }
+
     .portfolio__content{
         column-gap: 5rem;
     }
