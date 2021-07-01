@@ -379,7 +379,7 @@ img{
 /*==================== ABOUT ====================*/
 
 .about__img{
-    width: 200px;
+    width: 320px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -477,7 +477,7 @@ img{
 }
 
 .skills__react{
-    width: 65%;
+    width: 75%;
 }
 
 .skills__node{
@@ -488,16 +488,16 @@ img{
     width: 65%;
 }
 
-.skills__php{
-    width: 35%;
+.skills__sql{
+    width: 40%;
 }
 
 .skills__tdd{
-    width: 65%;
+    width: 70%;
 }
 
 .skills__git{
-    width: 70%;
+    width: 75%;
 }
 
 .skills__linux{
@@ -1088,10 +1088,11 @@ img{
 
     .about__container{
         column-gap: 5rem;
+        align-items: center;
     }
 
     .about__img{
-        width: 350px;
+        width: 450px;
     }
 
     .about__description{
