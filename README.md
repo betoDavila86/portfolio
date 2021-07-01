@@ -1,5 +1,6 @@
 # Mi Portfolio
 Pequeño *escaparate* en la que podréis ver alguno de mis trabajos.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32f30661-79e6-4ed4-8a5a-aa96493b4d24/deploy-status)](https://app.netlify.com/sites/quirky-lamarr-bcc449/deploys)
 
 ![Portfolio](/assets/img-readme/portfolio.png)
 
